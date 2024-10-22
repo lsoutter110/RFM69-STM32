@@ -33,11 +33,11 @@
 // *************************************************************************
 
 
-#include "../../RFM69-STM32/inc/rfm69.h"
+#include "rfm69.h"
+#include "rfm69_int.h"
+#include "rfm69_registers.h"
 
 #include "spi.h"
-#include "../../RFM69-STM32/src/rfm69_int.h"
-#include "../../RFM69-STM32/src/rfm69_registers.h"
 
 
 volatile uint8_t DATALEN;
